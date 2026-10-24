@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Greeted by name, and signed faintly across the bottom right. Usually set at install
+         (ConfigReceiver "name"); empty: "Good evening" and no signature. -->
+    <string name="default_name" translatable="false"></string>
+
+    <!-- Some firmware opens Live TV over Home at every power-on (UK Freeview Play sets, some MediaTek
+         boards). On: Home comes straight back when one of live_tv_packages shows up in the first two
+         minutes. Find yours right after a power-on: dumpsys activity activities | grep mResumedActivity -->
+    <bool name="boot_to_home">false</bool>
+    <string-array name="live_tv_packages">
+        <item>com.mediatek.wwtv.tvcenter</item>
+        <item>com.android.tv</item>
+        <item>com.google.android.tv</item>
+    </string-array>
+
+    <!-- Favourites, top of the list in this order, by package name. Missing packages are skipped.
+         Changed on the TV with "Add to / Remove from Favourites", or over ADB (see ConfigReceiver). -->
+    <string-array name="favourite_packages">
+        <item>com.netflix.ninja</item>
+        <item>com.google.android.youtube.tv</item>
+        <item>com.amazon.amazonvideo.livingroom</item>
+        <item>com.disney.disneyplus</item>
+    </string-array>
+
+    <!-- Never listed. -->
+    <string-array name="hidden_packages">
+        <item>com.android.tv.settings</item>
+        <item>com.google.android.tvlauncher</item>
+        <!-- Live TV is in the Inputs menu -->
+        <item>com.mediatek.wwtv.tvcenter</item>
+        <!-- CleanYourTV's launcher, if it stays installed to switch back to -->
+        <item>com.gathin.tvhome</item>
+        <!-- Firmware tools that list themselves as apps on MediaTek boards; harmless where absent -->
+        <item>com.airoha.btd</item>
+        <item>com.mediatek.tv.service</item>
+        <item>com.mediatek.wwtv.webview</item>
+        <item>com.mstar.android.tv.disclaimercustomization</item>
+        <item>mediatek.factorymenu.ui</item>
+    </string-array>
+
+    <!-- Hidden unless replaced over ADB (ConfigReceiver "hidden"). UK Freeview Play apps: firmware
+         re-enables them at every boot, so they are hidden rather than disabled; harmless elsewhere. -->
+    <string-array name="hidden_by_default">
+        <item>uk.co.freeview.amc_catchup</item>
+        <item>uk.co.freeview.amc_horror</item>
+        <item>uk.co.freeview.bbc</item>
+        <item>uk.co.freeview.bbc_sounds</item>
+        <item>uk.co.freeview.ch4_vod</item>
+        <item>uk.co.freeview.ch5</item>
+        <item>uk.co.freeview.explore</item>
+        <item>uk.co.freeview.itv</item>
+        <item>uk.co.freeview.onnow</item>
+        <item>uk.co.freeview.stv</item>
+        <item>uk.co.freeview.uktv</item>
+    </string-array>
+</resources>

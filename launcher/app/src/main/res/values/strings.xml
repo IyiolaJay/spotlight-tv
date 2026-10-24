@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Spotlight</string>
+    <string name="good_morning">Good morning</string>
+    <string name="good_afternoon">Good afternoon</string>
+    <string name="good_evening">Good evening</string>
+    <!-- "Good evening, Ada": the part of day, then the name chosen at setup -->
+    <string name="greeting_named">%1$s, %2$s</string>
+
+    <string name="inputs">Inputs</string>
+    <string name="wifi">Wi-Fi</string>
+    <string name="ethernet">Ethernet</string>
+    <string name="offline">Offline</string>
+    <string name="connected">Connected</string>
+    <string name="settings">Settings</string>
+    <string name="live_tv">Live TV</string>
+    <string name="av">AV</string>
+    <string name="cant_open">Can\'t open that</string>
+
+    <string name="favourite">Favourite</string>
+    <string name="favourites">Favourites</string>
+    <string name="all_apps">All apps</string>
+    <string name="last_opened">Last opened</string>
+    <string name="today_at">today at %s</string>
+    <string name="yesterday_at">yesterday at %s</string>
+    <string name="day_at">%1$s at %2$s</string>
+    <string name="open">Open</string>
+    <string name="add_favourite">Add to Favourites</string>
+    <string name="remove_favourite">Remove from Favourites</string>
+    <string name="app_info">App info</string>
+
+    <string name="signal_excellent">Excellent signal</string>
+    <string name="signal_good">Good signal</string>
+    <string name="signal_fair">Fair signal</string>
+    <string name="signal_weak">Weak signal</string>
+    <string name="ad_blocking">Ad blocking on · %s</string>
+    <string name="private_dns">Private DNS · %s</string>
+    <string name="network_internet">Network &amp; internet</string>
+
+    <string name="library_hint">Add an app to Home, or take one off</string>
+    <string name="on_home">On Home</string>
+    <string name="add_to_home">Add</string>
+
+    <string name="display_sound">Display &amp; sound</string>
+    <string name="pair_accessory">Pair remote or accessory</string>
+    <string name="apps">Apps</string>
+    <string name="date_time">Date &amp; time</string>
+    <string name="about">About</string>
+    <string name="all_settings">All settings</string>
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Stroked like the design's icons (24px grid, 1.8 stroke, round ends): four rounded squares. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <path
+        android:pathData="M5.5,4h3A1.5,1.5 0,0 1,10,5.5v3A1.5,1.5 0,0 1,8.5,10h-3A1.5,1.5 0,0 1,4,8.5v-3A1.5,1.5 0,0 1,5.5,4z"
+        android:strokeWidth="1.8"
+        android:strokeColor="#FFFFFFFF"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+    <path
+        android:pathData="M15.5,4h3A1.5,1.5 0,0 1,20,5.5v3A1.5,1.5 0,0 1,18.5,10h-3A1.5,1.5 0,0 1,14,8.5v-3A1.5,1.5 0,0 1,15.5,4z"
+        android:strokeWidth="1.8"
+        android:strokeColor="#FFFFFFFF"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+    <path
+        android:pathData="M5.5,14h3A1.5,1.5 0,0 1,10,15.5v3A1.5,1.5 0,0 1,8.5,20h-3A1.5,1.5 0,0 1,4,18.5v-3A1.5,1.5 0,0 1,5.5,14z"
+        android:strokeWidth="1.8"
+        android:strokeColor="#FFFFFFFF"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+    <path
+        android:pathData="M15.5,14h3A1.5,1.5 0,0 1,20,15.5v3A1.5,1.5 0,0 1,18.5,20h-3A1.5,1.5 0,0 1,14,18.5v-3A1.5,1.5 0,0 1,15.5,14z"
+        android:strokeWidth="1.8"
+        android:strokeColor="#FFFFFFFF"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+</vector>

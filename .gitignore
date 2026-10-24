@@ -1,0 +1,7 @@
+.venv/
+shots/
+.DS_Store
+launcher/local.properties
+launcher/.gradle/
+launcher/build/
+launcher/app/build/
