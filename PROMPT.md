@@ -37,8 +37,6 @@ Ask me, one question each
 - Does the TV open Live TV by itself when it's switched on? If yes, power it off and on, check
   `dumpsys activity activities | grep mResumedActivity` straight after, and make sure that app is
   in `live_tv_packages` in `spotlight-tv/launcher/app/src/main/res/values/config.xml`.
-- Only if I use an iPhone, iPad or Mac: do I want AirPlay? CleanYourTV's AirPlay add-on installs
-  a receiver.
 
 Install
 - Set up a Python venv in `spotlight-tv/` with `tools/requirements.txt`. Building needs a JDK
@@ -63,5 +61,5 @@ Verify
 
 ---
 
-Expect four or five questions: your name, your favourite apps, the background, Live TV at
-power-on and AirPlay, on top of CleanYourTV's debloat questions. Everything is reversible.
+Expect four questions: your name, your favourite apps, the background and Live TV at power-on,
+on top of CleanYourTV's debloat questions. Everything is reversible.
