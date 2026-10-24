@@ -2,7 +2,7 @@
 """Check that the TV's network ADB port is really closed.
 
 Adapted from CleanYourTV's tools/adb-closed.py (https://github.com/Gathin23/cleanyourtv, MIT,
-Copyright (c) 2026 Gathin); see LICENSE.
+Copyright (c) 2026 Gathin); see CLEANYOURTV-LICENSE.txt.
 
   tools/adb-closed.py 192.168.1.50 [port]
 

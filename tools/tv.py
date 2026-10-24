@@ -2,7 +2,7 @@
 """Tiny ADB client for the TV, built on the adb-shell package.
 
 Adapted from CleanYourTV's tools/tv.py (https://github.com/Gathin23/cleanyourtv, MIT,
-Copyright (c) 2026 Gathin); see LICENSE.
+Copyright (c) 2026 Gathin); see CLEANYOURTV-LICENSE.txt.
 
   tools/tv.py 'getprop ro.product.model'      run a shell command
   tools/tv.py --screenshot shots/01.png       capture on the TV and pull the PNG

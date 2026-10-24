@@ -129,7 +129,8 @@ Name the launcher to give Home back to. The script re-enables it first if you ha
 ## Credits and licence
 
 - **Licence:** MIT ([`LICENSE`](LICENSE)). `tools/tv.py` and `tools/adb-closed.py` are adapted from
-  CleanYourTV's, under its MIT licence (included in `LICENSE`).
+  CleanYourTV's, under its MIT licence
+  ([`tools/CLEANYOURTV-LICENSE.txt`](tools/CLEANYOURTV-LICENSE.txt)).
 - **Typeface:** [Outfit](https://github.com/Outfitio/Outfit-Fonts), SIL Open Font License
   ([`launcher/OUTFIT-OFL.txt`](launcher/OUTFIT-OFL.txt)).
 - **The black sand beach** is painted in code by [`tools/make-blacksand.py`](tools/make-blacksand.py).
