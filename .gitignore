@@ -5,3 +5,4 @@ launcher/local.properties
 launcher/.gradle/
 launcher/build/
 launcher/app/build/
+__pycache__/
